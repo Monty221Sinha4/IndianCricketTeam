@@ -3,9 +3,19 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/ContentStyle.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.6.0.js"></script>
     <title>@ViewBag.Title</title>
 </head>
 <body style="background-color:Highlight">
+    <img src="~/IMages/Circket 1.png" width="200" height="200" />
+    <nav style="color:white">
+        @Html.ActionLink("Home", "Home", "Home")
+        @Html.ActionLink("History","History","Home")
+        @Html.ActionLink("Gallery","Gallery","Home")
+    </nav>
+
     <div>
         @RenderBody()
     </div>
