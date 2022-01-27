@@ -21,5 +21,9 @@ namespace IndianCricketTeam.Controllers
         {
             return View();
         }
+        public ActionResult Clips()
+        {
+            return View();
+        }
     }
 }
